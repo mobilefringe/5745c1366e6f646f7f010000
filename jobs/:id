@@ -7,7 +7,7 @@
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
         <a href="/events-and-promotions">
-            <img src="http://assets.codecloudapp.com/sites/5745c1366e6f646f7f010000/image/jpeg/undefined/dgvr_440x1200_side_events.jpg" /></a>
+            <img src="http://assets.codecloudapp.com/sites/5745c1366e6f646f7f010000/image/jpeg/undefined/dgvr_440x1200_side_jobs.jpg" /></a>
         </div>
         <div class="details_col_9" id="job_details_container">
             <script id="job_details_template" type="x-tmpl-mustache/text">
