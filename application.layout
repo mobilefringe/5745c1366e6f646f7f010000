@@ -54,7 +54,7 @@
 </script>   
     <!-- Site data -->
     <script>
-        setEndPoint('//greenvalley.mallmaverick.com/api/v3/greenvalley/all.json');
+        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
     </script>
 </head>
 
