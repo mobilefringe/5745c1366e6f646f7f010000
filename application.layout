@@ -73,6 +73,7 @@
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/greenvalley-services">SERVICES</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/greenvalley-contact-us">CONTACT</a></li>
                    <li class="hidden_now mobile_menu_dd"><a href="	/pages/greenvalley-partners">PARTNERS</a></li>
+                   <li class="hidden_now mobile_menu_dd"><a href="	/pages/greenvalley-videos">VIDEOS</a></li>
             </ul>
         </div>
         <div class="row">
@@ -112,6 +113,7 @@
                             <li><a href="/pages/greenvalley-services">SERVICES</a></li>
                             <li><a href="/pages/greenvalley-contact-us">CONTACT</a></li>
                               <li><a href="/pages/greenvalley-partners">PARTNERS</a></li>
+                               <li><a href="/pages/greenvalley-videos">VIDEOS</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
