@@ -165,8 +165,7 @@
             }
         });
         try {
-            
-        load_map(regions, store_details, 2500, 2000);
+            load_map(regions, store_details, 2500, 2000);
         }
         catch (err) {
             console.log(err);
