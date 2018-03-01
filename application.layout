@@ -73,7 +73,7 @@
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/greenvalley-contact-us">CONTACT</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="	/pages/greenvalley-partners">PARTNERS</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="	/pages/greenvalley-videos">VIDEOS</a></li>
-                 <li class="hidden_now mobile_menu_dd"><a href="	//codecloud.cdn.speedyrails.net/sites/59a066636e6f64651d950000/application/pdf/1519855994000/The District at Green Valley Ranch Non-Profit Donation Form.pdf">NON-PROFIT DONATION<br>REQUEST FORM </a></li>
+                 <li class="hidden_now mobile_menu_dd"><a href="	//codecloud.cdn.speedyrails.net/sites/59a066636e6f64651d950000/application/pdf/1519855994000/The District at Green Valley Ranch Non-Profit Donation Form.pdf">NON-PROFIT DONATION REQUEST FORM </a></li>
             </ul>
         </div>
         <div class="row">
@@ -114,6 +114,8 @@
                             <li><a href="/pages/greenvalley-contact-us">CONTACT</a></li>
                               <li><a href="/pages/greenvalley-partners">PARTNERS</a></li>
                                <li><a href="/pages/greenvalley-videos">VIDEOS</a></li>
+                                   <li><a href="/pages/greenvalley-videos">VIDEOS</a></li>
+                                   <li><a href="//codecloud.cdn.speedyrails.net/sites/59a066636e6f64651d950000/application/pdf/1519855994000/The District at Green Valley Ranch Non-Profit Donation Form.pdf">NON-PROFIT DONATION<br> REQUEST FORM</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
