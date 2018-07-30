@@ -55,6 +55,9 @@
     
     <!-- Site data -->
     <script>
+    $.getJSON("//rossmoor.mallmaverick.com/api/v4/shopsatrossmoor/subcategories.json?bust=true").done(function(data){
+            
+        });
         setEndPoint('//greenvalley.mallmaverick.com/api/v4/greenvalley/all.json');
     </script>
 </head>
