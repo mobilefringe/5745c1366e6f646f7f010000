@@ -17,7 +17,7 @@
     </div>
     <div class="store_nav hidden_phone">
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-4">
                 <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="text-uppercase" id="current_category">ALL CUISINE</span>
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
@@ -183,16 +183,18 @@
                 var hours = getHoursForStoreSlug(val.slug).sortBy(function(o){ return o.day_of_week });
                 today_day_of_week = moment().day();
                 var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; })[0];
-                var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
-                var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
-                if (todays_hour.is_closed == true){
-                    val.hour_string = "Closed Today"
-                    $('#today_store_hour_'+val.id).addClass("red");
-                    console.log("hello" ,$('#today_store_hour_'+val.id));
-                } else {
-                    val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
-                    $('#today_store_hour_'+val.id).removeClass("red");
-                } 
+                if(todays_hour !== null && todays_hour !== undefined) {
+                    var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
+                    if (todays_hour.is_closed == true){
+                        val.hour_string = "Closed Today"
+                        $('#today_store_hour_'+val.id).addClass("red");
+                        console.log("hello" ,$('#today_store_hour_'+val.id));
+                    } else {
+                        val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                        $('#today_store_hour_'+val.id).removeClass("red");
+                    } 
+                }
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
